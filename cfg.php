@@ -16,9 +16,7 @@ $phpsessid1 = "cookie: PHPSESSID=ijq9ikjh766ag5g3r32rgb97f7";
 $token1 = "cookie: DOGEToken=rAjqPXNGj2N336iHiFDhIiDS4BVceiPo";
 #
 $url2 ="https://coincycles.com/eth/claim.php?coin=ETH";
-
 $phpsessid2 = "cookie: PHPSESSID=038156529f16348e9ff5f3b3ff8f9335";
-
 $token2 = "cookie: ETHToken=2dPzGcflmc7A5bRwjIhnbkgkkO4qiJcP";
 #
 $url3 ="https://coincycles.com/bch/claim.php?coin=BCH";
