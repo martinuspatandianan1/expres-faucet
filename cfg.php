@@ -8,25 +8,27 @@
 $ua ="user-agent: Mozilla/5.0 (Linux; Android 8.1.0; Redmi 5 Plus) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.162 Mobile Safari/537.36";
 #
 $url ="https://coincycles.com/doge/claim.php?coin=DOGE";
-$phpsessid = "cookie: PHPSESSID=544570d9acfbe1a8f54421906f7ddf0d";
-$token = "cookie: DOGEToken=ihy46tocPUB3kKcChbeEGjcLpu3b3sh3";
+$phpsessid = "cookie: PHPSESSID=038156529f16348e9ff5f3b3ff8f9335";
+$token = "cookie: DOGEToken=dasI7Rjp0ZycZzIIwoTMZtCP9kEvS1UU";
 #
 $url1 ="https://joinfaucet.com/doge/claim.php?coin=DOGE";
-$phpsessid1 = "cookie: PHPSESSID=c9ejscfb7bbec1vi2qq97olq43";
-$token1 = "cookie: DOGEToken=fbM5sePP4udQOYmV9r9gVhDLjqjChjJh";
+$phpsessid1 = "cookie: PHPSESSID=ijq9ikjh766ag5g3r32rgb97f7";
+$token1 = "cookie: DOGEToken=rAjqPXNGj2N336iHiFDhIiDS4BVceiPo";
 #
 $url2 ="https://coincycles.com/eth/claim.php?coin=ETH";
-$phpsessid2 = "cookie: PHPSESSID=544570d9acfbe1a8f54421906f7ddf0d";
-$token2 = "cookie: ETHToken=qKXigYP39c0FAAKcJvFBctXzkRs36Nur";
+
+$phpsessid2 = "cookie: PHPSESSID=038156529f16348e9ff5f3b3ff8f9335";
+
+$token2 = "cookie: ETHToken=2dPzGcflmc7A5bRwjIhnbkgkkO4qiJcP";
 #
 $url3 ="https://coincycles.com/bch/claim.php?coin=BCH";
 $phpsessid3 = "cookie: PHPSESSID=544570d9acfbe1a8f54421906f7ddf0d";
-$token3= "cookie: BCHToken=97HQ0UAQSQvZ5er8dfxhXW6NKdrzKFqM";
-#
+$token3 = "cookie: BCHToken=97HQ0UAQSQvZ5er8dfxhXW6NKdrzKFqM";
+##
 $url4 ="https://coincycles.com/trx/claim.php?coin=TRX";
-$phpsessid4 = "cookie: PHPSESSID=544570d9acfbe1a8f54421906f7ddf0d";
-$token4 = "cookie:TRXToken=LdlXWdk27ySH25nVdJsswgPJvDOeSFVZ";
-#
+$phpsessid4 = "cookie: PHPSESSID=038156529f16348e9ff5f3b3ff8f9335";
+$token4 = "cookie:TRXToken=D3Wyk1AavNZWF4BRYdktAxu2f8INaFzB";
+##
 $url5 ="https://coincycles.com/xrp/claim.php?coin=XRP";
 $phpsessid5 = "cookie: PHPSESSID=544570d9acfbe1a8f54421906f7ddf0d";
 $token5 = "cookie: XRPToken=37Xxe5DlT3SutFv9IdrTKVXGCYp6u2l3";
@@ -44,8 +46,15 @@ $phpsessid8 = "cookie: PHPSESSID=544570d9acfbe1a8f54421906f7ddf0d";
 $token8 = "cookie: DGBToken=hZJFmGf7ZvbOThEXB0pDSgNjDrEQiIr2";
 ##
 $url9 ="https://coincycles.com/bcn/claim.php?coin=BCN";
-$phpsessid9 = "cookie: PHPSESSID=544570d9acfbe1a8f54421906f7ddf0d";
-$token9 = "cookie: BCNToken=AYMrdoMOgeta7dga4q0bNna4a35CmqtM";
-
+$phpsessid9 = "cookie: PHPSESSID=038156529f16348e9ff5f3b3ff8f9335";
+$token9 = "cookie: BCNToken=lIPfxXwTl6hSbO3LtZbhNb83sQVCxQlU";
+##
+$url20 ="https://joinfaucet.com/ltc/claim.php?coin=LTC";
+$phpsessid20 = "cookie: PHPSESSID=ijq9ikjh766ag5g3r32rgb97f7";
+$token20 = "cookie: LTCToken=9WuU32h4OGcRq6VADj1yCC934X1603Tg";
+##
+$url21 ="https://coincycles.com/ltc/claim.php?coin=LTC";
+$phpsessid21 = "cookie: PHPSESSID=038156529f16348e9ff5f3b3ff8f9335";
+$token21 = "cookie: LTCToken=fb09QL0klfisjWnvuk0GYuDjjVEpIHp0";
 
 ?>
