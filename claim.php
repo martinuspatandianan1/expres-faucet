@@ -1,5 +1,6 @@
 <?php
 error_reporting(0);
+require("config.php");
 
 function line(){
     echo "=================================================\n";
@@ -55,9 +56,9 @@ function claim($coin, $currency, $huruf){
         $tri = explode('<span>Success! We paid out ', $coin);
         $for = explode(' '.$currency.' Satoshi to', $tri[1]);
         if ($huruf == 4){
-            echo " ".$cyan."[".$currency."] ".$ijo."[WD]".$putih."   => ".$cyan."[ ". $biru .$for[0] . $cyan." ".$currency." Sat]".$putih."\n";
+            echo " ".$cyan."[".$currency."] ".$ijo."[WD]".$putih."    => ".$cyan."[ ". $biru .$for[0] . $cyan." ".$currency." Sat]".$putih."\n";
         }else{
-            echo " ".$cyan."[".$currency."]  ".$ijo."[WD]".$putih."   => ".$cyan."[ ". $biru .$for[0] . $cyan. " ".$currency." Sat]".$putih."\n";
+            echo " ".$cyan."[".$currency."]  ".$ijo."[WD]".$putih."    => ".$cyan."[ ". $biru .$for[0] . $cyan. " ".$currency." Sat]".$putih."\n";
         }
 
     }else{
@@ -68,6 +69,7 @@ function claim($coin, $currency, $huruf){
         }
     }
 }
+
 
 banner();
 
